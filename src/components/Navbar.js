@@ -30,7 +30,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={CloseMobileMenu}>
-                    MY PORTFOLI <i className="fa fa-podcast" aria-hidden="true"/>
+                    JONNELY DE LA TORRE <i className="fa fa-podcast" aria-hidden="true"/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click? 'fas fa-times': 'fas fa-bars'} />
@@ -38,7 +38,7 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active':'nav-menu'}>
                     <li className='nav-item'>
                         <Link to='/' className='nav-links' onClick={CloseMobileMenu}>
-                        Home
+                        Projects
                         </Link>
                     </li>
                     <li className='nav-item'>
@@ -48,12 +48,12 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <Link to='/' className='nav-links' onClick={CloseMobileMenu}>
-                        Hire Me
+                        My Resume
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/About' className='nav-links-mobile' onClick={CloseMobileMenu}>
-                        About
+                        About Me
                         </Link>
                     </li>
                 </ul>
