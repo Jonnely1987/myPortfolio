@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css'
 import {Button} from './Button';
 import './HeroSection.css';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 function HeroSection() {
   return (
@@ -16,14 +18,7 @@ function HeroSection() {
         <Button className="btns" buttonStyle={'btn--primary'} buttonSize={'btn--large'}>
          DOWNLOAD MY CV
         </Button>
-
-
-      
-
-
         </div>
-    
-
     </div>
   )
 }

@@ -1,11 +1,13 @@
 import '../../App.css'
-import HeroSection from '../HeroSection'
+import HeroSection from '../HeroSection';
+import Card from '../Card';
 
 
 function Home() {
     return(
         <>
         <HeroSection />
+        <Card />
         </>
     );
 }
